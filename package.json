@@ -1,0 +1,30 @@
+{
+  "name": "obsidian-idea-vault",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Capture ideas instantly, organize them later and resurface forgotten ones.",
+  "license": "MIT",
+  "author": "Nooshin Javaheripour (https://github.com/nooshinjava)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nooshinjava/obsidian-idea-vault.git"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "build": "node esbuild.config.mjs",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json",
+    "check": "npm run typecheck && npm test && npm run build"
+  },
+  "devDependencies": {
+    "@orbitkit/shared": "file:lib/shared",
+    "esbuild": "0.28.2",
+    "obsidian": "1.14.4",
+    "typescript": "5.9.3",
+    "vitest": "4.1.12",
+    "yaml": "2.9.1"
+  }
+}

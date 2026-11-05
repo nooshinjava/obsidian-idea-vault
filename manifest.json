@@ -1,0 +1,10 @@
+{
+  "id": "idea-vault",
+  "name": "Idea Vault",
+  "version": "2.0.0",
+  "minAppVersion": "1.7.2",
+  "description": "Capture ideas instantly, organize them later and resurface forgotten ones.",
+  "author": "Nooshin Javaheripour",
+  "authorUrl": "https://github.com/nooshinjava",
+  "isDesktopOnly": false
+}
