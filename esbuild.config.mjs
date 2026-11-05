@@ -9,7 +9,7 @@ await build({
   platform: "browser",
   target: "es2020",
   external: ["obsidian", "electron", "@codemirror/*", "@lezer/*"],
-  banner: { js: "/* Idea Vault 2.0.0 — https://github.com/nooshinjava/obsidian-idea-vault */" },
+  banner: { js: "/* Idea Vault 2.0.1 — https://github.com/nooshinjava/obsidian-idea-vault */" },
   legalComments: "none",
   logLevel: "info",
 });

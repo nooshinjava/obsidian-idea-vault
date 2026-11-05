@@ -37,7 +37,7 @@ export default class IdeaVaultPlugin extends Plugin implements IdeaVaultControll
 
     this.addCommand({ id: "quick-capture", name: "Quick capture idea", callback: () => this.openCapture() });
     this.addCommand({
-      id: "open-idea-vault",
+      id: "open-panel",
       name: "Open panel",
       callback: handleAsync("Could not open Idea Vault", () => this.openPanel()),
     });
